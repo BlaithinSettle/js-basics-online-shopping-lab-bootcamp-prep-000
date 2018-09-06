@@ -17,11 +17,8 @@ function addToCart(item) {
    itemName:item,
    itemPrice:price
  }
- for(var i=0; i<obj.length; i++){    
-output += `itemName${item[i]}, itemPrice${price[i]}`
-    }
-    return output;
- 
+ output=`itemName: ${item}, itemPrice: ${price}`;
+return output;
 }
 
 function viewCart() {
