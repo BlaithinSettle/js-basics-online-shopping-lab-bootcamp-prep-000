@@ -14,9 +14,9 @@ function addToCart(item) {
  var price= Math.floor(Math.random() * (100-1) + 1);
  var output=[];
  var item={
-   itemName:" ",
+   itemName:[],
    itemPrice:price
- }
+ };
  for (var i=0; i<item.length; i++){
  output.push(`itemName: ${item[i]}, itemPrice: ${price[i]}`);
  }
