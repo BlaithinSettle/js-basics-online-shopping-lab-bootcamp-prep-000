@@ -21,9 +21,9 @@ function addToCart(item) {
  output.push(`itemName: ${item[i]}, itemPrice: ${price[i]}`);
  }
  //output=`itemName: ${item}, itemPrice: ${price}`;
-return output;
+//return output;
 }
-//return `${itemName} has been added to your cart.`
+return `${itemName} has been added to your cart.`
 
 function viewCart() {
   // write your code here
