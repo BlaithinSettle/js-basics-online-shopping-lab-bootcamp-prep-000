@@ -18,11 +18,9 @@ function addToCart(item) {
    itemPrice:price
  }
  for(var i=0; i<obj.length; i++){    
-output += `${item[i]}, ${price[i]}`
+output += `itemName${item[i]}, itemPrice${price[i]}`
     }
     return output;
- 
- return `${item} ${price}`
  
 }
 
